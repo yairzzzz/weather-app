@@ -1,8 +1,8 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 import axios from "axios";
-import toast from "react-hot-toast";
-const baseURL = "http://localhost:5000";
+const baseURL =
+  import.meta.env.MODE === "development" ? "http://localhost:5000" : "/";
 
 const weatherStore = create(
   persist(
