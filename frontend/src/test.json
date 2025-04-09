@@ -1,0 +1,10 @@
+{
+  "state": {
+    "currentCity": { "key": "215854", "cityName": "Tel Aviv" },
+    "favorites": [],
+    "isSearching": true,
+    "dailyWeather": [],
+    "currentConditions": null
+  },
+  "version": 0
+}
