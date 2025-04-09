@@ -1,4 +1,4 @@
-#⛅️ Weather App
+⛅️ Weather App
 
 A modern, responsive weather application built with React, Tailwind CSS, and Zustand. This app allows users to search for current weather conditions, view 5-day forecasts, and manage their favorite cities. Weather data is fetched from the AccuWeather API through a custom Express backend to handle CORS and API key protection.
 
