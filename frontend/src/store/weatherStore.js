@@ -2,7 +2,7 @@ import { create } from "zustand";
 import { persist } from "zustand/middleware";
 import axios from "axios";
 const baseURL =
-  import.meta.env.MODE === "development" ? "http://localhost:5000" : "/";
+  import.meta.env.MODE === "development" ? "http://localhost:5000" : "";
 
 const weatherStore = create(
   persist(
