@@ -30,3 +30,5 @@ State Management: Zustand + Persist Middleware
 
 Local Storage: Used for favorites and settings (unit toggle)
 
+Deployed app url: https://weather-app-tfsr.onrender.com/ 
+
